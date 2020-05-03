@@ -182,22 +182,58 @@
 
   # Keyboards
 
-  @kb_home = [[@sec1, @sec5, @sec3],[@sec4, @sec2, @sec6],[@sec7, @sec8, @end]]
+  @kb_home = [
+    [@sec1, @sec5, @sec3],
+    [@sec4, @sec2, @sec6],
+    [@sec7, @sec8, @end]
+  ]
 
   @kb_answer = [@home, @return, @end]
 
   @kb_sec1 = [@home, @end]
 
-  @kb_sec2 = [[@item_2_1, @item_2_2], [@item_2_3, @item_2_4], [@item_2_5, @item_2_6, @item_2_7], [@home, @end]]
+  @kb_sec2 = [
+    [@item_2_1, @item_2_2],
+    [@item_2_3, @item_2_4],
+    [@item_2_5, @item_2_6, @item_2_7],
+    [@home, @end]
+  ]
 
-  @kb_sec3 = [[@item_3_1, @item_3_2, @item_3_3], [@item_3_4, @item_3_5, @item_3_6], [@item_3_7, @item_3_8], [@home, @end]]
+  @kb_sec3 = [
+    [@item_3_1, @item_3_2, @item_3_3],
+    [@item_3_4, @item_3_5, @item_3_6],
+    [@item_3_7, @item_3_8],
+    [@home, @end]
+  ]
 
-  @kb_sec4 = [[@item_4_1], [@item_4_2], [@home, @end]]
+  @kb_sec4 = [
+    [@item_4_1],
+    [@item_4_2],
+    [@home, @end]
+  ]
 
-  @kb_sec5 = [[@item_5_1], [@item_5_2], [@item_5_3], [@home, @end]]
+  @kb_sec5 = [
+    [@item_5_1],
+    [@item_5_2],
+    [@item_5_3],
+    [@home, @end]
+  ]
 
-  @kb_sec6 = [[@item_6_1, @item_6_2], [@item_6_3, @item_6_4], [@item_6_5, @item_6_6], [@home, @end]]
+  @kb_sec6 = [
+    [@item_6_1, @item_6_2],
+    [@item_6_3, @item_6_4],
+    [@item_6_5, @item_6_6],
+    [@home, @end]
+  ]
 
-  @kb_sec7 = [[@item_7_7, @item_7_7], [@item_7_7, @item_7_7], [@item_7_7, @item_7_7, @item_7_7], [@home, @end]]
+  @kb_sec7 = [
+    [@item_7_7, @item_7_7],
+    [@item_7_7, @item_7_7],
+    [@item_7_7, @item_7_7, @item_7_7],
+    [@home, @end]
+  ]
 
-  @kb_sec8 = [[@item_8_1, @item_8_2], [@item_8_3, @item_8_4], [@home, @end]]
+  @kb_sec8 = [[@item_8_1, @item_8_2],
+  [@item_8_3, @item_8_4],
+  [@home, @end]
+]
