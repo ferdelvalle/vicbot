@@ -1,7 +1,3 @@
-# telegram_bot
-
-## By Fernando Del Valle
-
 ## Introduction
 
 This is a simple [Telegram][tgm] bot that can be customized to display information from a main menu and submenues.
