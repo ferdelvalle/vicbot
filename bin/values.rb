@@ -173,8 +173,6 @@
   @item_8_4 = 'Website'
   @item_8_4_text = 'URL'
 
- 
-
   # Keyboard Variables
   @home = 'Home'
   @return = 'Back'
