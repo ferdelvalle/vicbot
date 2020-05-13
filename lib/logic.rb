@@ -13,7 +13,7 @@ def self.returning(current)
     return @kb_sec3
 
   when @section = 4
-    return @skb_ec4
+    return @kb_sec4
 
   when @section = 5
     return @kb_sec5
