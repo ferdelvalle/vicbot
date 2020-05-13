@@ -1,7 +1,6 @@
 # The Telegram bot's token goes here, replace 'token' for your token, keep the quotation marks as in 'your-token-goes-here'
 @tkn = 'your token goes here'
 
-
 # The values for each section go here, keep the quotation marks
 
   # Section 0
@@ -162,16 +161,21 @@
   # Section 8 @items
 
   @item_8_1 = 'email'
-  @item_8_1_text = 'email address'
+  @item_8_1_text = "admin@intensitystockwatch.com"
 
   @item_8_2 = 'Twitter'
-  @item_8_2_text = 'twitter handle'
+  @item_8_2_text = "@IntensityStocks"
 
   @item_8_3 = 'Telegram'
-  @item_8_3_text = 'telegram id'
+  @item_8_3_text = "@ISWSupport"
 
   @item_8_4 = 'Website'
-  @item_8_4_text = 'URL'
+  @item_8_4_text = "https://www.intensitystockwatch.com/"
+
+  @item_8_5 = 'StockTwits'
+  @item_8_5_text = "@IntensityStocks"
+
+
 
   # Keyboard Variables
   @home = 'Home'
@@ -232,6 +236,6 @@
   ]
 
   @kb_sec8 = [[@item_8_1, @item_8_2],
-  [@item_8_3, @item_8_4],
+  [@item_8_3, @item_8_4, @item_8_5],
   [@home, @end]
 ]

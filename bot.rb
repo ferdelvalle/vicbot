@@ -356,6 +356,13 @@ Telegram::Bot::Client.run(token) do |bot|
         .new(keyboard: @kb_answer, one_time_keyboard: true)
       bot.api.send_message(chat_id: message.chat.id, text: question, reply_markup: answers)
 
+    when "#{@item_8_5}"
+      question = @item_8_5_text
+      answers =
+        Telegram::Bot::Types::ReplyKeyboardMarkup
+        .new(keyboard: @kb_answer, one_time_keyboard: true)
+      bot.api.send_message(chat_id: message.chat.id, text: question, reply_markup: answers)
+
     # Returns to the previous section's menu
 
     when "#{@return}"
