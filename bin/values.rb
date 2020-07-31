@@ -229,9 +229,9 @@
   ]
 
   @kb_sec7 = [
-    [@item_7_7, @item_7_7],
-    [@item_7_7, @item_7_7],
-    [@item_7_7, @item_7_7, @item_7_7],
+    [@item_7_1, @item_7_2],
+    [@item_7_3, @item_7_4],
+    [@item_7_5, @item_7_6, @item_7_7],
     [@home, @end]
   ]
 
